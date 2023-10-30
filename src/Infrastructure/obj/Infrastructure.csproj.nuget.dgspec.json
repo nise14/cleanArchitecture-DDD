@@ -1,0 +1,218 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Repository\\CleanArchitecture-DDD\\EasyPOS\\src\\Infrastructure\\Infrastructure.csproj": {}
+  },
+  "projects": {
+    "C:\\Repository\\CleanArchitecture-DDD\\EasyPOS\\src\\Application\\Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Repository\\CleanArchitecture-DDD\\EasyPOS\\src\\Application\\Application.csproj",
+        "projectName": "Application",
+        "projectPath": "C:\\Repository\\CleanArchitecture-DDD\\EasyPOS\\src\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Repository\\CleanArchitecture-DDD\\EasyPOS\\src\\Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Repository\\CleanArchitecture-DDD\\EasyPOS\\src\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Repository\\CleanArchitecture-DDD\\EasyPOS\\src\\Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "ErrorOr": {
+              "target": "Package",
+              "version": "[1.3.0, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.7.1, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Repository\\CleanArchitecture-DDD\\EasyPOS\\src\\Domain\\Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Repository\\CleanArchitecture-DDD\\EasyPOS\\src\\Domain\\Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "C:\\Repository\\CleanArchitecture-DDD\\EasyPOS\\src\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Repository\\CleanArchitecture-DDD\\EasyPOS\\src\\Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "ErrorOr": {
+              "target": "Package",
+              "version": "[1.3.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Repository\\CleanArchitecture-DDD\\EasyPOS\\src\\Infrastructure\\Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Repository\\CleanArchitecture-DDD\\EasyPOS\\src\\Infrastructure\\Infrastructure.csproj",
+        "projectName": "Infrastructure",
+        "projectPath": "C:\\Repository\\CleanArchitecture-DDD\\EasyPOS\\src\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Repository\\CleanArchitecture-DDD\\EasyPOS\\src\\Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Repository\\CleanArchitecture-DDD\\EasyPOS\\src\\Application\\Application.csproj": {
+                "projectPath": "C:\\Repository\\CleanArchitecture-DDD\\EasyPOS\\src\\Application\\Application.csproj"
+              },
+              "C:\\Repository\\CleanArchitecture-DDD\\EasyPOS\\src\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Repository\\CleanArchitecture-DDD\\EasyPOS\\src\\Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
